@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 160px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: #111B47;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button-primary {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 189px;
+    height: 36px;
+    gap: 0px;
+    border-radius: 2px;
+    background-color: #111B47;
+    opacity: 0px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button-outline-primary {
+    text-decoration: none;
+    width: 185px;
+    height: 32px;
+    border-radius: 2px;
+    color: #091133;
+    border: 2px solid #091133;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding: 15px 0;
+}
+
+.main-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.nav .nav-list a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #505F98;
+    ;
+
+}
+
+.banner-section {
+    display: flex;
+    justify-content:center;
+    margin-top: 185px;
+}
+
+.banner-content {
+    width: 539.37px;
+    height: 316px;
+    padding: 0px 0.37px 0px 0px;
+
+}
+
+.banner-title {
+
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #091133;
+}
+
+.banner-description {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #505F98;
+    padding-bottom: 51px;
+
+
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.banner-image {
+    width: auto;
+    height: 780px;
+
+}
