@@ -194,16 +194,6 @@ body {
     padding: 0px 0.37px 0px 0px;
 }
 
-.about-section-image {
-    /* width: 540px;
-    height: 524.31px;
-    top: 1219.65px;
-    left: 735px;
-    gap: 0px;
-    opacity: 0px; */
-
-}
-
 .services {
     display: flex;
     justify-content: space-between;
