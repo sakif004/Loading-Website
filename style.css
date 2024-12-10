@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -89,7 +91,7 @@ body {
 .banner-section {
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    height: 1100px;
     position: relative;
 }
 
@@ -130,4 +132,74 @@ body {
     position: absolute;
     right: 0;
     top: -60px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.about-section-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.about-section-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6F7CB2;
+    padding-bottom: 80px;
+    margin: 0;
+}
+
+.about-items {
+    display: flex;
+    gap: 30px;
+}
+
+.about-items-icon {
+    width: 36px;
+    height: 36px;
+
+}
+
+.about-items-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 14px;
+    margin-bottom: 0;
+    color: #091133;
+}
+
+.about-items-description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #5D6970;
+    margin-top: 6px;
+}
+
+.about-section-content {
+    width: 540px;
+    height: 316px;
+    padding: 0px 0.37px 0px 0px;
+}
+
+.about-section-image {
+    /* width: 540px;
+    height: 524.31px;
+    top: 1219.65px;
+    left: 735px;
+    gap: 0px;
+    opacity: 0px; */
+
 }
