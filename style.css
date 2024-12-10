@@ -139,7 +139,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 108px;
 }
 
 .about-section-title {
@@ -202,4 +202,31 @@ body {
     gap: 0px;
     opacity: 0px; */
 
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 122.5px;
+    padding-bottom: 130.7px;
+}
+
+.service-content {
+    width: 445px;
+    height: 228px;
+}
+
+.service-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133;
+}
+
+.service-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6F7CB2;
 }
