@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root{
+    --primary-color: #091133;
+    --seconday-color: #505F98;
+    --font-family-primary: "Roboto", sans-serif;
+    --body-font-family: var(--font-family-primary);
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--body-font-family);
 }
 
 .nav-button {
@@ -45,8 +52,8 @@ body {
     width: 185px;
     height: 32px;
     border-radius: 2px;
-    color: #091133;
-    border: 2px solid #091133;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
     font-size: 16px;
     font-weight: 500;
     display: inline-flex;
@@ -85,7 +92,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #505F98;
+    color: var(--seconday-color);
 }
 
 .banner-section {
@@ -109,7 +116,7 @@ body {
     line-height: 66px;
     letter-spacing: 1px;
     text-align: left;
-    color: #091133;
+    color: var(--primary-color);
     margin-top: 0;
 }
 
@@ -118,7 +125,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    color: #505F98;
+    color: var(--seconday-color);
     padding-bottom: 51px;
 }
 
@@ -146,7 +153,7 @@ body {
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
-    color: #091133;
+    color: var(--primary-color);
     margin-top: 0px;
     margin-bottom: 16px;
 }
@@ -177,7 +184,7 @@ body {
     line-height: 26px;
     margin-top: 14px;
     margin-bottom: 0;
-    color: #091133;
+    color: var(--primary-color);
 }
 
 .about-items-description {
@@ -211,7 +218,7 @@ body {
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
-    color: #091133;
+    color: var(--primary-color);
 }
 
 .service-description {
@@ -239,7 +246,7 @@ body {
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
-    color: #091133;
+    color: var(--primary-color);
     /* text-align: center; */
     margin: 0;
 }
