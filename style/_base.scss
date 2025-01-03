@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #091133;
+    --seconday-color: #505F98;
+    --font-family-primary: "Roboto", sans-serif;
+    --body-font-family: var(--font-family-primary);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font-family);
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}

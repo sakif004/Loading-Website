@@ -1,0 +1,31 @@
+.button-primary {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 189px;
+    height: 36px;
+    gap: 0px;
+    border-radius: 2px;
+    background-color: #111B47;
+    opacity: 0px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-outline-primary {
+    text-decoration: none;
+    width: 185px;
+    height: 32px;
+    border-radius: 2px;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
