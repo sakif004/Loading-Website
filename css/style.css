@@ -198,14 +198,12 @@ body {
   width: 445px;
   height: 228px;
 }
-
 .service-title {
   font-size: 36px;
   font-weight: 500;
   line-height: 48px;
   color: var(--primary-color);
 }
-
 .service-description {
   font-size: 16px;
   font-weight: 400;
@@ -219,24 +217,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .pricing-section {
   width: 600px;
   margin: 0 auto;
   place-items: center;
   padding-bottom: 172px;
 }
-
-.price-section-title {
+.pricing-section-title {
   font-size: 36px;
   font-weight: 500;
   line-height: 48px;
   color: var(--primary-color);
-  /* text-align: center; */
   margin: 0;
 }
-
-.price-section-description {
+.pricing-section-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;

@@ -8,8 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "sass": "^1.83.0"
-  }
+  },
+  "description": ""
 }
