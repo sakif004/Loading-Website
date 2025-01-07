@@ -18,12 +18,12 @@
     padding: 15px 0;
     position: relative;
     z-index: 1;
-}
 
-.main-header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .nav .nav-list {
@@ -32,13 +32,13 @@
     gap: 60px;
     margin: 0;
     padding: 0px;
-}
 
-.nav .nav-list a {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: var(--seconday-color);
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: var(--seconday-color);
+    }
 }
